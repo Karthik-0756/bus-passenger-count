@@ -16,7 +16,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 app.use(cors({
-  origin: 'https://your-frontend-domain.com'
+  origin: 'https://passenger-count-blue.vercel.app/'
 }));
 app.use(logger('dev'));
 app.use(express.json());
