@@ -63,7 +63,7 @@ router.get('/', async (req, res) => {
 
 //checking purpose ofr the FE gives data to BE
 router.get('/test', (req, res) => {
-  res.send('Route is vvworking');
+  res.send('Route is working');
   res.status(201).json({ status: 'success', message: 'Bus stop ' });
 
 });
